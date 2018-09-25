@@ -32,7 +32,6 @@ input::-webkit-inner-spin-button {
 }
 
 input {
-    border-radius: 3px;
     border: 1px solid rgba(0,0,0,.2);
 }
 
@@ -47,7 +46,6 @@ input {
 }
 .item {
     width: 100%;
-    border-radius: 3px;
 }
 
 .list >* {
@@ -68,4 +66,19 @@ input {
 .footer span {
     margin-top: 400px;
     color: #000;
+}
+
+.phoneitem {
+    display: inline-block;
+    width: 100%;
+    
+.getcode,
+item,
+input {
+    border-radius: 8px;
+}
+    
+.getcode {
+    color: #fff;
+    background: #007bff;
 }
